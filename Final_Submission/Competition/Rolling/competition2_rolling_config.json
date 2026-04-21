@@ -1,0 +1,9 @@
+{
+  "training_mode": "rolling",
+  "period_col": "yyyy",
+  "rolling_start_period": "2015",
+  "rolling_end_period": "2024",
+  "rolling_window_size": 8,
+  "docker_image": "codalab/codalab-legacy:py37",
+  "phase_time_limit_seconds": 1200
+}
