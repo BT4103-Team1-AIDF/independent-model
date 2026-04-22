@@ -46,3 +46,20 @@ Use this section when teammates want to reproduce experiments or continue model 
 - Existing `Final_Submission` content remains unchanged.
 - Sensitive data and generated artifacts should not be committed.
 - This layout follows the handover style used across team repos (`codabench`, `classifier-chain`, `survival-analysis`).
+
+---
+
+## Codabench compatibility (updated 2026-04-22)
+
+This package is confirmed to work with the latest local Codabench update from:
+- `BT4103-Team1-AIDF/aidf-codabench` @ `fbcfcda4` (`fixed leaderboard issues for rolling`)
+
+Smoke checks completed:
+- Rolling competition: submission finished with visible leaderboard metrics (`AUC_ALL`, `AUC_ROLL_MEAN`, `VALID_YEARS`)
+- Static competition: submission finished with visible leaderboard metrics (`AUC_ALL`, `AUC_ROLL_MEAN`, `VALID_YEARS`)
+
+No extra worker patch is required when using this Codabench version.
+You can reuse the same `Scoring.zip` keys for both static and rolling:
+- `AUC_ALL`
+- `AUC_ROLL_MEAN`
+- `VALID_YEARS`

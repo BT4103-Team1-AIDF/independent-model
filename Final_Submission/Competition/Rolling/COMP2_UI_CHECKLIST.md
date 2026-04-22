@@ -32,3 +32,7 @@ Upload these 4 files:
 
 Execution time
 - Recommended: 1200 sec (20 min)
+
+Compatibility note
+- With the latest team Codabench (`aidf-codabench` commit `fbcfcda4`), no manual compute-worker key patch is needed.
+- Keep leaderboard columns aligned to scoring outputs: `AUC_ALL`, `AUC_ROLL_MEAN`, `VALID_YEARS`.
