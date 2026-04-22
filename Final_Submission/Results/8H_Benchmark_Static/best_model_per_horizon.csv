@@ -1,0 +1,9 @@
+horizon_months,best_model,best_test_default_auc
+1,logistic_regression,0.952665838375108
+3,logistic_regression,0.9509717680976396
+6,logistic_regression,0.9466242059775924
+12,random_forest,0.9264339691628394
+24,random_forest,0.8717775257478615
+36,xgboost,0.848061543051225
+48,lstm,0.8407189807041285
+60,lstm,0.84310678621078

@@ -1,0 +1,11 @@
+competition,model,submission_id,filename,status,auc_all,auc_roll_mean,valid_years
+static,logistic,221,logistic_v3_20260413.zip,Finished,0.9258862823,0.9236363912,10.0
+static,random_forest,257,random_forest_v3_revert_20260414.zip,Finished,0.9246884204,0.8933936939,10.0
+static,xgboost,223,xgboost_v3_20260413.zip,Finished,0.8930659518,0.8603669642,10.0
+static,lightgbm,224,lightgbm_v3_20260413.zip,Finished,0.8962812081,0.868678562,10.0
+static,catboost,225,catboost_v3_20260413.zip,Finished,0.9157027686,0.8830992694,10.0
+rolling,logistic,247,logistic_v3_20260413.zip,Finished,0.9022251952429374,0.9278549101179943,10.0
+rolling,random_forest,261,random_forest_v3_lightweight_compat.zip,Finished,0.923495384111122,0.9228872726554214,10.0
+rolling,xgboost,249,xgboost_v3_20260413.zip,Finished,0.8913417564379843,0.8603669641750804,10.0
+rolling,lightgbm,250,lightgbm_v3_20260413.zip,Finished,0.8947265050352806,0.8686785619853653,10.0
+rolling,catboost,251,catboost_v3_20260413.zip,Finished,0.9142326036348994,0.8830992694372608,10.0

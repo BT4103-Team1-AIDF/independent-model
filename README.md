@@ -31,6 +31,14 @@ Use this section when creating competitions or uploading submissions.
 
 Use this section when teammates want to reproduce experiments or continue model development.
 
+### C) `Final_Submission/Results/` (for reporting/presentation)
+
+- `8H_Benchmark_Static/`: full 8-horizon benchmark summaries and plots.
+- `Comp1_vs_Comp2_12m_Tuned5/`: tuned 5-model static vs rolling comparison tables/plots.
+- `README.md`: explanation of each artifact file.
+
+Use this section when preparing client slides/final report evidence.
+
 ---
 
 ## Recommended workflow

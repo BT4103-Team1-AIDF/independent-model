@@ -1,0 +1,3 @@
+source_head=outputs/half4h_5models_20260309_172207
+source_tail=outputs/half4h_tail_5models_20260309_173847
+files=metrics_summary_all_horizons.csv,benchmark_summary_all_horizons.csv,best_model_per_horizon.csv
